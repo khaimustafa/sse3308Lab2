@@ -1,0 +1,228 @@
+body {
+  background-image: url('background.avif');
+  margin:50px;
+}
+
+.header {
+    background-color: #ccffff;
+    color: black;
+    padding: 27px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header nav {
+    margin-right: 25px;
+}
+
+.header .logo {
+    margin-left: 25px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.cats {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.food {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.music {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+
+.column {
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+}
+
+.column img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+
+table {
+
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.aboutme-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.aboutme{
+    max-width: 350px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.details{
+  font-family: Arial, sans-serif;
+}
+
+
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px;
+    margin-right: 30px;
+}
+
+.pulau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.pulau2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.pulau3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.pulau4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.columnp {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.columnp img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hobby1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.columnr {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.columnr img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.columns {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.columns img {
+    width: 160px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.hobby3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.columnt {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.columnt img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
